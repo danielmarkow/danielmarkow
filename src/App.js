@@ -1,7 +1,17 @@
+import * as React from 'react';
+import {Outlet, Link} from 'react-router-dom';
 
 function App() {
   return (
-    <h1>hello world</h1>
+    <div>
+      <h1>hello world</h1>
+      <nav style={{ borderBottom: 'solid 1px' }}>
+        <Link to="/">Home</Link> | {' '}
+        <Link to="/aboutme">About me</Link> | {' '}
+        <Link to="/projects">Projects</Link>
+      </nav>
+      <Outlet />
+    </div>
   );
 }
 
