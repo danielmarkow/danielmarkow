@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import {
   BrowserRouter,
+  HashRouter,
   Routes,
   Route,
 } from "react-router-dom";
@@ -15,9 +16,9 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<App />}>
-          <Route path="aboutme" element={<Aboutme />} />
-          <Route path="projects" element={<Projects />} />
+        <Route path="/danielmarkow" element={<App/>}>
+          <Route path="/danielmarkow/aboutme" element={<Aboutme />} />
+          <Route path="/danielmarkow/projects" element={<Projects />} />
         </Route>
       </Routes>
     </BrowserRouter>

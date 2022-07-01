@@ -6,9 +6,9 @@ function App() {
     <div>
       <h1>hello world</h1>
       <nav style={{ borderBottom: 'solid 1px' }}>
-        <Link to="/">Home</Link> | {' '}
-        <Link to="/aboutme">About me</Link> | {' '}
-        <Link to="/projects">Projects</Link>
+        <Link to="/danielmarkow">Home</Link> | {' '}
+        <Link to="aboutme">About me</Link> | {' '}
+        <Link to="projects">Projects</Link>
       </nav>
       <Outlet />
     </div>

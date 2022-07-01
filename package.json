@@ -1,7 +1,7 @@
 {
   "name": "gh-test",
   "version": "0.1.0",
-  "homepage": "https://danielmarkow.github.io",
+  "homepage": "https://danielmarkow.github.io/danielmarkow",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
