@@ -8,3 +8,9 @@
   margin: 2px;
   padding-top: 10px;
 }
+
+#portrait {
+  width: 160px;
+  height: auto;
+  padding: 10px;
+}
