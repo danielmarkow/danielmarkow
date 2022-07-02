@@ -18,10 +18,10 @@ export default function Aboutme() {
                         <a href= "mailto:daniel@nonreliant.me">daniel@nonreliant.me</a>
                     </li>
                     <li>
-                        <a href="https://github.com/danielmarkow"><img src="github.png" alt="github logo" className="social-media" /></a>
-                        <a href="https://www.linkedin.com/in/daniel-markow-5b7435a1/"><img src="linkedin.png" alt="linkedin logo" className="social-media" /></a>
-                        <a href="https://www.instagram.com/daniel.markow/"><img src="instagram.png" alt="insta logo" className="social-media" /></a>
-                        <a href="https://twitter.com/nonreliant_me"><img src="twitter.png" alt="twitter logo" className="social-media" /></a>
+                        <a href="https://github.com/danielmarkow" target="_blank" rel="noreferrer"><img src="github.png" alt="github logo" className="social-media" /></a>
+                        <a href="https://www.linkedin.com/in/daniel-markow-5b7435a1/" target="_blank" rel="noreferrer"><img src="linkedin.png" alt="linkedin logo" className="social-media" /></a>
+                        <a href="https://www.instagram.com/daniel.markow/" target="_blank" rel="noreferrer"><img src="instagram.png" alt="insta logo" className="social-media" /></a>
+                        <a href="https://twitter.com/nonreliant_me" target="_blank" rel="noreferrer"><img src="twitter.png" alt="twitter logo" className="social-media" /></a>
                     </li>
                 </ul>
                 
