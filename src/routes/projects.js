@@ -2,12 +2,41 @@ import * as React from 'react';
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/row';
-import Card from 'react-bootstrap/Card';
-import Button from 'react-bootstrap/Button';
-import Col from 'react-bootstrap/Col';
+// import Card from 'react-bootstrap/Card';
+// import Button from 'react-bootstrap/Button';
+// import Col from 'react-bootstrap/Col';
+import Project from './project';
 
+const myProjects = [
+    {
+        name: "Eyes Exercise",
+        image: "oneeye.png",
+        description: "Make the all seeing eyes move.",
+        githubLink: "https://github.com/danielmarkow/eyes"
+    },
+    {
+        name: "PacMan Exercise",
+        image: "pacman.png",
+        description: "Pacman moves and bounces off the walls.",
+        githubLink: "https://github.com/danielmarkow/pacManExercise"
+    },
+];
 
 export default function Projects() {
+
+    return (
+        <Container fluid="sm">
+            <Row>
+                <h2>Projects</h2>
+            </Row>
+            <Row xs={1} md={2} className="g-4">
+                {myProjects.map((myProject) => <Project project={myProject} />)}
+            </Row>
+        </Container>
+    );
+}
+
+/*export default function Projects() {
     return (
         <Container fluid="sm">
             <Row>
@@ -47,4 +76,4 @@ export default function Projects() {
             </Row>
         </Container>
     );
-}
+}*/
