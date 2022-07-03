@@ -36,7 +36,7 @@ export default function Aboutme() {
                 <h3>Experience</h3>
                 <p><i>Application Manager Data Integration and Analytics, Volkswagen AG Group IT, Wolfsburg — 2020-09 - Present</i><br />
                 Migration of an on-premises data warehouse to a AWS cloud based data lake, project management and coordination of external developers, requirements management with business department representatives, cloud infrastructure development, cloud security</p>
-                <p><i>Analyics and Data Engineer, Volkswagen AG Group Logistics, Wolfsburg — 2015-01 - 2020-08</i><br />
+                <p><i>Analytics and Data Engineer, Volkswagen AG Group Logistics, Wolfsburg — 2015-01 - 2020-08</i><br />
                 Senior data engineer and project owner Logistics Data Lake, ETL development with PySpark, data modelling for analytics, coordination of group wide ETL development in material logistics, Qlik development, report development with SAP Business Objects</p>
                 <p><i>Research Assistant, Leibniz University Institute of Social Policy, Hannover — 2013-02 - 2014-10</i><br />Data mining and panel data analysis with Stata and R</p>
                 <p><i>Intern, Sauer Walzenfabriken GmbH &#38; Co. KG, Hannover — 2012-08 - 2012-10</i><br />
