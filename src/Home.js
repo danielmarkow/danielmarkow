@@ -6,7 +6,7 @@ import Col from 'react-bootstrap/Col';
 
 export default function Home() {
   return (
-    <Container>
+    <Container fluid="sm">
       <Row>
         <Col>
           <h2>Greetings</h2>
@@ -14,7 +14,7 @@ export default function Home() {
           <p>In my free time I like to spend time with my beautiful girlfriend, exercise, take fotos and travel.</p>
         </Col>
         <Col>
-          <img src="danielmarkow/portrait.png" alt="portrait of me eating soup" id="portrait"/>
+          placeholder video
         </Col>
       </Row>
     </Container>

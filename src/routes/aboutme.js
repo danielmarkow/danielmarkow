@@ -1,15 +1,16 @@
 import * as React from 'react';
 
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/row";
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/row';
+import Col from 'react-bootstrap/Col';
+
 
 export default function Aboutme() {
     return (
-        <Container>
+        <Container fluid="sm">
             <Row>
                 <h2>About Me</h2>
-            </Row>
-            <Row>
+                <img src="portrait.png" alt="portrait of me eating soup" id="portrait"/>
                 <ul className="bio">
                     <li>
                         Daniel Markow 
@@ -24,6 +25,8 @@ export default function Aboutme() {
                         <a href="https://twitter.com/nonreliant_me" target="_blank" rel="noreferrer"><img src="twitter.png" alt="twitter logo" className="social-media" /></a>
                     </li>
                 </ul>
+            </Row>
+            <Row>
                 
             </Row>
             <Row>

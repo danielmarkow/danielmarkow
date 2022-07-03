@@ -7,7 +7,7 @@ import Button from 'react-bootstrap/Button';
 
 export default function Projects() {
     return (
-        <Container>
+        <Container fluid="sm">
             <Row>
                 <h2>Projects</h2>
             </Row>

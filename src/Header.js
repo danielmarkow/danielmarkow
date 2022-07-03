@@ -7,7 +7,7 @@ import {LinkContainer} from 'react-router-bootstrap'
 export default function Header() {
     return (
         <Navbar bg="light" expand="lg">
-        <Container>
+        <Container fluid="sm">
           <Navbar.Brand>Daniel Markow - Portfolio</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
