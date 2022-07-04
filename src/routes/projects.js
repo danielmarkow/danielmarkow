@@ -8,7 +8,7 @@ import Row from 'react-bootstrap/row';
 import Project from './project';
 import myProjects from './myProjects';
 
-function Projects() {
+export default function Projects() {
     const [searchField, setSearchField] = React.useState("");
 
     const filteredProjects = myProjects.filter(
@@ -34,13 +34,16 @@ function Projects() {
         <Container fluid="sm">
             <Row>
                 <h2>Projects</h2>
-                <InputGroup className="mb-3" style={{width: '30vw', alignItems: 'center', display: 'flex'}}>
+            <Row>
+                <InputGroup className="mb-3">
+                <InputGroup.Text>Search Projects</InputGroup.Text>
                     <FormControl 
-                        placeholder='project name or description'
-                        aria-label='project name or description'
+                        placeholder='enter project name or description'
+                        aria-label='enter project name or description'
                         onChange = {handleChange}
                     />
                 </InputGroup>
+            </Row>
             </Row>
             <Row xs={1} md={2} className="g-4">
                 {filteredProjects.map((myProject) => <div key={myProject.id}><Project project={myProject} /></div>)}
@@ -48,15 +51,3 @@ function Projects() {
         </Container>
     );
 }
-
-export default Projects;
-
-/*
-*/
-
-/*
-<input 
-                    type = "search" 
-                    placeholder = "Search People" 
-                    onChange = {handleChange}
-                />*/
