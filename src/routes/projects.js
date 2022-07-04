@@ -45,7 +45,7 @@ export default function Projects() {
                 </InputGroup>
             </Row>
             </Row>
-            <Row xs={1} md={2} className="g-4">
+            <Row xs={1} md={3} className="g-4">
                 {filteredProjects.map((myProject) => <div key={myProject.id}><Project project={myProject} /></div>)}
             </Row>
         </Container>
