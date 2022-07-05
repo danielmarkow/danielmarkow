@@ -9,6 +9,10 @@
   padding-top: 10px;
 }
 
+.embedded-video {
+  padding-top: 5px;
+}
+
 #portrait {
   width: 160px;
   height: auto;
