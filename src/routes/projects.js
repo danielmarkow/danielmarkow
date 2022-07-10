@@ -35,17 +35,15 @@ export default function Projects() {
             <Row>
                 <h2>Projects</h2>
             </Row>
+                <InputGroup className="mb-3">
+                    <InputGroup.Text>Search Projects</InputGroup.Text>
+                        <FormControl 
+                            placeholder='enter project name or description'
+                            aria-label='enter project name or description'
+                            onChange = {handleChange}
+                        />
+                </InputGroup>
             <div className='project-grid-wrapper'>
-                <div className='search'>
-                    <InputGroup className="mb-3">
-                        <InputGroup.Text>Search Projects</InputGroup.Text>
-                            <FormControl 
-                                placeholder='enter project name or description'
-                                aria-label='enter project name or description'
-                                onChange = {handleChange}
-                            />
-                    </InputGroup>
-                </div>
                 {filteredProjects.map((myProject) => <div key={myProject.id}><Project project={myProject} /></div>)}
             </div>
         </Container>

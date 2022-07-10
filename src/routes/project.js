@@ -1,12 +1,11 @@
 import * as React from 'react';
 
 import Button from 'react-bootstrap/Button';
-import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
 
 export default function Projekt({project}) {
     return (
-        <div className='project'>
+        <>
             <Card style={{ width:'18rem' }}>
                 <Card.Img variant="top" src={project.image}/>
                 <Card.Body>
@@ -20,6 +19,6 @@ export default function Projekt({project}) {
                     >Repository on GitHub</Button>
                 </Card.Body>
             </Card>
-        </div>
+        </>
     );
 }

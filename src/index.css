@@ -32,25 +32,9 @@
 .project-grid-wrapper {
   display: grid;
   grid-template-columns: 33% 33% 33%;
-  grid-template-areas: 
-    'search search search'
-    'project project project';
-}
-
-.search {
-  grid-area: search;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 .project {
   grid-area: project; 
 }
-
-/*  display: grid;
-  grid-gap: 10px;
-  grid-template-columns: 120px 120px 120px;
-  grid-template-areas:
-    '....... header header'
-    'sidebar content content'
-    'footer  footer  footer';
-  background-color: #fff;
-  color: #444; */
