@@ -34,20 +34,20 @@ export default function Projects() {
         <Container fluid="sm">
             <Row>
                 <h2>Projects</h2>
-            <Row>
+            </Row>
                 <InputGroup className="mb-3">
-                <InputGroup.Text>Search Projects</InputGroup.Text>
-                    <FormControl 
-                        placeholder='enter project name or description'
-                        aria-label='enter project name or description'
-                        onChange = {handleChange}
-                    />
+                    <InputGroup.Text>Search Projects</InputGroup.Text>
+                        <FormControl 
+                            placeholder='enter project name or description'
+                            aria-label='enter project name or description'
+                            onChange = {handleChange}
+                        />
                 </InputGroup>
-            </Row>
-            </Row>
-            <Row xs={1} md={3} className="g-4">
+            <div className='project-grid-wrapper'>
                 {filteredProjects.map((myProject) => <div key={myProject.id}><Project project={myProject} /></div>)}
-            </Row>
+            </div>
         </Container>
     );
 }
+
+{/* <Row xs={1} md={3} className="g-4"></Row> */}
