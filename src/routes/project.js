@@ -5,7 +5,7 @@ import Card from 'react-bootstrap/Card';
 
 export default function Projekt({project}) {
     return (
-        <>
+        <div className='project-card-wrapper'>
             <Card style={{ width:'18rem' }}>
                 <Card.Img variant="top" src={project.image}/>
                 <Card.Body>
@@ -19,6 +19,6 @@ export default function Projekt({project}) {
                     >Repository on GitHub</Button>
                 </Card.Body>
             </Card>
-        </>
+        </div>
     );
 }
