@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/danielmarkow/static/css/main.2719894e.css",
+    "main.css": "/danielmarkow/static/css/main.2a96170b.css",
     "main.js": "/danielmarkow/static/js/main.1b73e447.js",
     "index.html": "/danielmarkow/index.html",
-    "main.2719894e.css.map": "/danielmarkow/static/css/main.2719894e.css.map",
+    "main.2a96170b.css.map": "/danielmarkow/static/css/main.2a96170b.css.map",
     "main.1b73e447.js.map": "/danielmarkow/static/js/main.1b73e447.js.map"
   },
   "entrypoints": [
-    "static/css/main.2719894e.css",
+    "static/css/main.2a96170b.css",
     "static/js/main.1b73e447.js"
   ]
 }
