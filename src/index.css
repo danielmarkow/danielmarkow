@@ -31,12 +31,7 @@
 
 .project-grid-wrapper {
   display: grid;
-  grid-template-columns: 33% 33% 33%;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-}
-
-.project {
-  grid-area: project; 
 }
 
 .project-card-wrapper {
